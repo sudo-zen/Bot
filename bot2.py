@@ -32,5 +32,5 @@ async def on_message(message):
         print(message.content)
         print(response)
         await message.channel.send(response)
-client.run("Nzc4MDUyMjgyNzc5Njk3MTcy.X7MarA.2LWntOhBR7ZPDDvClkEBMMqqayA", bot=False)        
+client.run("token", bot=False)        
     
